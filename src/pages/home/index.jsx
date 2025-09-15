@@ -1,10 +1,13 @@
 import React from 'react'
-
+import {AnimatedTestimonialsDemo} from "../../components/3dcards/cards"
 const index = () => {
   return (
-    <div>
-      <h1>home</h1>
-    </div>
+    <>
+    <AnimatedTestimonialsDemo/>
+
+      
+    </>
+
   )
 }
 
