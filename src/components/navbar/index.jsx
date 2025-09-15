@@ -8,14 +8,17 @@ const Navbar = () => {
   const links = [
     { name: "Home", path: "/" },
     { name: "About", path: "/about" },
-    { name: "Services", path: "/services" },
+    { name: "Experience", path: "/experience" },
+    { name: "Projects", path: "/projects" },
+    { name: "Skills", path: "/skills" },
     { name: "Contact", path: "/contact" },
+    
   ];
 
   return (
     <nav className="bg-gray-900 text-white fixed w-full z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
-        <div className="text-2xl font-bold">MyBrand</div>
+        <div className="text-2xl font-bold">MyPortfolio</div>
 
         {/* Desktop Links */}
         <div className="hidden md:flex space-x-6">
